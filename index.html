@@ -40,26 +40,26 @@
 
     <!-- table -->
     <table class="Tengah" border="10px">
-      <tr>
-        <th>Nama</th>
-        <td>:</td>
-        <td>Jaka Kurnia</td>
-      </tr>
-      <tr>
-        <th>Kelas</th>
-        <td>:</td>
-        <td>MI 24</td>
-      </tr>
-      <tr>
-        <th>Tempat lahir</th>
-        <td>:</td>
-        <td>Tasikmalaya</td>
-      </tr>
-      <tr>
-        <th>Tangal lahir</th>
-        <td>:</td>
-        <td>09 Juni 2005</td>
-      </tr>
+            <tr>
+              <th>Nama</th>
+              <td>:</td>
+              <td>Jaka Kurnia</td>
+            </tr>
+            <tr>
+              <th>Kelas</th>
+              <td>:</td>
+              <td>MI 24</td>
+            </tr>
+            <tr>
+              <th>Tempat lahir</th>
+              <td>:</td>
+              <td>Tasikmalaya</td>
+            </tr>
+            <tr>
+              <th>Tangal lahir</th>
+              <td>:</td>
+              <td>09 Juni 2005</td>
+            </tr>
     </table>
 </div>
 
@@ -78,7 +78,50 @@
 <iframe src="file/ABI KASEP.pdf" frameborder="0"></iframe>
 </div>
 
-
-
+<div style="text-align: center;">
+<div style="display: list-item; text-align: center;">
+<form action="succes.html" >
+  <!-- Text --><br>
+<label for="nama">Nama :</label>
+<input type="text" id="nama" placeholder="User name" name="nama">
+<!-- Number --><br>
+<label for="noHandphone">No Handphone :</label>
+<input type="number" name="noHandphone" id="noHandphone" placeholder="Masukan No HP">
+<!-- Date --><br>
+<label for="tgllahir">Tanggal Lahir</label>
+<input type="date" id="tgllahir" name="tgllahir">
+<!-- Password --><br>
+<label for="password">Pasword</label>
+<input type="password" name="password" id="password" placeholder="Masukan Password">
+<!-- File --><br>
+<label for="file">Masukan file</label>
+<input type="file" name="file" id="file">
+<!-- Alamat --><br>
+<label for="alamat">Alamat</label>
+<textarea name="alamat" id="alamat" >Masukan Alamat</textarea>
+<!-- Select --><br>
+<label for="agama">Agama</label>
+<select name="agama" id="agama">
+  <option value="islam">Islam</option>
+  <option value="islam">Budha</option>
+  <option value="islam">Kristen</option>
+  <option value="islam">Protestan</option>
+  <option value="islam"></option>
+</select>
+<!-- Checxbox --><br>
+<label for="Hobi">Hobi</label>
+<label for="Mancing">Mancing</label>
+<input type="checkbox" name="Mancing" id="Mancing">
+<label for="Ngoding">Ngoding</label>
+<input type="checkbox" name="Ngoding" id="Ngoding">
+<label for="Tidur">Tidur</label>
+<input type="checkbox" name="Tidur" id="Tidur">
+<!-- Submit -->
+<button type="submit">Simpan</button>
+<!-- Sumbit -->
+<button type="reset">Reset</button>
+</form>
+</div>
+</div>
   </body>
 </html>
